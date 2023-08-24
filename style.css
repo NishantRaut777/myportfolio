@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+/* header section css */
+
+.header-section{
+    background-color: beige;
+}
+
+.header-container{
+    padding: 10px 20px;
+}
+
+.header-container nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container ul{
+    display: flex;
+}
+
+.header-container h2{
+    margin-left: 20px;
+}
+
+.header-container ul li{
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.header-container ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.header-container ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.7s;
+}
+
+.header-container ul li a:hover::after{
+    width: 100%;
+}
