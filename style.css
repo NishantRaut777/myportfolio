@@ -59,3 +59,42 @@ body{
 .header-container ul li a:hover::after{
     width: 100%;
 }
+
+
+/* Intro Section css */
+
+.Intro-section{
+    display: flex;
+    height: 70vh;
+    background-color: #977722a1;
+}
+
+.Intro-section .intro-content{
+    width: 60%;
+    padding: 125px 37px;
+}
+
+.intro-content h3{
+    font-size: 17px;
+}
+
+.intro-content h2{
+    font-size: 38px;
+    display: inline-block;
+    width: 360px;
+}
+
+.intro-Image{
+    width: 40%;
+}
+
+.Intro-section img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 95px;
+    border-radius: 10px;
+}
+
+
+
