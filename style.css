@@ -5,7 +5,7 @@
 }
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Poppins', sans-serif;;
 }
 
@@ -65,7 +65,7 @@ body{
 
 .Intro-section{
     display: flex;
-    height: 70vh;
+    height: 75vh;
     background-color: #977722a1;
 }
 
@@ -95,6 +95,94 @@ body{
     margin-top: 95px;
     border-radius: 10px;
 }
+
+
+
+/* aboutme CSS */
+
+.aboutme-section{
+    padding: 80px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-left{
+    flex-basis: 35%;
+}
+
+.about-col-left img{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about-col-right {
+    flex-basis: 60%;
+}
+
+.about-col-right .about-col-heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about-me-heading-para {
+    margin-bottom: 30px;
+}
+
+.about-col-right .tab-titles{
+    display: flex;
+    margin: 20px 0px 40px 0px;
+}
+
+.tablink{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tablink::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+
+.tablink.active-link::after{
+    width: 50%;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.skills-container .skillLogos{
+    width: 50px;
+    height: 50px;
+}
+
+.skills-container p{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.skills-inner-container{
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 
