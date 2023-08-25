@@ -14,7 +14,7 @@ body{
 /* ------------------------------------- header section css  --------------------------------- */
 
 .header-section{
-    background-color: beige;
+    
 }
 
 .header-container{
@@ -72,7 +72,7 @@ body{
 .Intro-section{
     display: flex;
     height: 75vh;
-    background-color: #977722a1;
+    background-color: #3c83e742;
 }
 
 .Intro-section .intro-content{
@@ -216,6 +216,7 @@ body{
 .myservices-section{
     height: 95vh;
     padding: 70px 35px;
+    background-color: #3c83e70d
 }
 
 .myservices-container {
