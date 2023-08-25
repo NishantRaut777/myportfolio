@@ -50,12 +50,12 @@
                     <p class="about-me-heading-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda nam, temporibus maxime reprehenderit accusamus reiciendis dolor accusantium tempora harum aliquam itaque ex? Est magnam laboriosam ipsam qui repudiandae. Laboriosam cumque minus possimus, fugiat eos natus laborum blanditiis dolorum corrupti exercitationem eius perferendis aliquid sint obcaecati non beatae labore accusamus, dolore quibusdam veniam quos nulla. Eius ipsam iusto voluptatibus quisquam!</p>
 
                     <div class="tab-titles">
-                        <p class="tablink active-link">Skills</p>
-                        <p class="tablink">Education</p>
-                        <p class="tablink">Experience</p>
+                        <p class="tablink active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablink" onclick="opentab('education')">Education</p>
+                        <p class="tablink" onclick="opentab('experience')">Experience</p>
                     </div>
 
-                    <div class="tab-contents skills-container">
+                    <div class="tab-contents skills-container active-tab" id="skills">
                         <div class="skills-inner-container"><img src="./images/html.png" alt="HTML Logo" class="skillLogos"><p>HTML</p></div>
                         <div class="skills-inner-container"><img src="./images/css-logo.png" alt="CSS Logo" class="skillLogos"><p>CSS</p></div>
                         <div class="skills-inner-container"><img src="./images/JS-logo.png" alt="JavaScript Logo" class="skillLogos"><p>JavaScript</p></div>
@@ -67,10 +67,32 @@
                         <div class="skills-inner-container"><img src="./images/git logo.png" alt="git Logo" class="skillLogos"><p>git</p></div>
                     </div>
 
-                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2020 BSC Computer Science</span><br>D.G.Ruparel College</li>
+                        </ul>
+                        <ul>
+                            <li><span>2015-2017</span><br>G.N.Khalsa College</li>
+                        </ul>
+                        <ul>
+                            <li><span>2015</span><br>Anuyog Vidyalaya High School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 June - 2023 June</span><br>Trainee Data Engineer at Tesseract Solutions Private Limited</li>
+                        </ul>
+                        <ul>
+                            <li><span>2022 January - 2022 June</span><br>Trainee at Tesseract Solutions Private Limited</li>
+                        </ul>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>

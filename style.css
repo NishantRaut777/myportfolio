@@ -116,12 +116,13 @@ body{
 
 .about-col-left img{
     width: 300px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 85px;
+    margin-top: 100px;
 }
 
 .about-col-right {
     flex-basis: 60%;
+    height: 500px;
 }
 
 .about-col-right .about-col-heading{
@@ -180,6 +181,25 @@ body{
 .skills-inner-container{
     display: flex;
     align-items: center;
+}
+
+/* Initially all tabs content will be none */
+.tab-contents{
+    display: none;
+}
+
+.active-tab{
+    display: grid;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.tab-contents ul li span{
+    color: #db6565;
+    font-weight: bold;
 }
 
 
