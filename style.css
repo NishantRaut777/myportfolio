@@ -11,7 +11,7 @@ body{
 
 
 
-/* header section css */
+/* ------------------------------------- header section css  --------------------------------- */
 
 .header-section{
     background-color: beige;
@@ -32,6 +32,12 @@ body{
 
 .header-container h2{
     margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.7s;
+}
+
+.header-container h2:hover {
+    transform: translateY(10px);
 }
 
 .header-container ul li{
@@ -61,7 +67,7 @@ body{
 }
 
 
-/* Intro Section css */
+/* ----------------------------------- Intro Section css -------------------------------- */
 
 .Intro-section{
     display: flex;
@@ -98,10 +104,11 @@ body{
 
 
 
-/* aboutme CSS */
+/* ------------------------- aboutme CSS ---------------------------------- */
 
 .aboutme-section{
     padding: 80px 0px;
+    height: 120vh;
 }
 
 .row{
@@ -125,7 +132,7 @@ body{
     height: 500px;
 }
 
-.about-col-right .about-col-heading{
+.common-title{
     font-size: 50px;
     font-weight: 600;
 }
@@ -202,6 +209,57 @@ body{
     font-weight: bold;
 }
 
+
+
+/* --------------------------------- myservices CSS --------------------------------------- */
+
+.myservices-section{
+    height: 95vh;
+    padding: 70px 35px;
+}
+
+.myservices-container {
+    display: flex;
+}
+
+.myservices-inner-container{
+    margin: 5px 15px;
+    border: 2px solid grey;
+    padding: 22px 25px;
+    border-radius: 6px;
+    transition: transform 0.7s, background-color 0.7s;
+}
+
+.myservices-section-heading{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.myservices-inner-container i{
+    margin: 35px 0px;;
+}
+
+.myservices-inner-container h2{
+    margin-bottom: 7px;
+}
+
+.myservices-inner-container p{
+    margin-bottom: 10px;
+}
+
+.myservices-container a{
+    text-decoration: none;
+}
+
+.myservices-container a:hover{
+    color: black;
+}
+
+.myservices-inner-container:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color: rgb(182, 182, 248);
+}
 
 
 
