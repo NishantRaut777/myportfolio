@@ -442,3 +442,16 @@ form input, form textarea{
 }
 
 
+/* ------------------ Footer CSS ----------------------------- */
+
+.footer-section{
+    padding: 15px 0px;
+    background-color: #3c83e742;
+}
+
+.footer-container{
+    text-align: center;
+    font-weight: bold;
+}
+
+
