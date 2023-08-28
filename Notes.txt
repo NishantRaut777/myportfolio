@@ -1,0 +1,1 @@
+Whenever display proprty is used animation cannot be used on that

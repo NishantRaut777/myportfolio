@@ -1,3 +1,14 @@
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_header = document.querySelector(".header-container");
+
+const toggleNavbar = () => {
+    nav_header.classList.toggle("active-header");
+};
+
+mobile_nav.addEventListener("click" , ()=> toggleNavbar());
+
+
+
 let tablinks = document.getElementsByClassName("tablink");
 let tabcontents = document.getElementsByClassName("tab-contents");
 
