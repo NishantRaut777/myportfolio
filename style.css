@@ -687,3 +687,28 @@ form input, form textarea{
         width: 95%;
     }
 }
+
+
+
+/* Portfolio section */
+
+@media (max-width: 1000px){
+    .portfolio-section{
+        height: 1450px;
+    }
+
+    .portfolio-section h1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+    }
+
+    .portfolio-inner-container{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
