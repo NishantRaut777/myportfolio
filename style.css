@@ -643,3 +643,47 @@ form input, form textarea{
     }
 }
 
+
+
+/* myservices section */
+
+@media (max-width: 1100px){
+
+    .myservices-section{
+        height: 1250px;
+    }
+
+    .myservices-section h1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .myservices-container{
+        flex-direction: column;
+    }
+
+    .myservices-inner-container{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 800px){
+
+    .myservices-inner-container{
+        width: 85%;
+    }
+}
+
+@media (max-width: 650px){
+
+    .myservices-section{
+        height: 1500px;
+    }
+
+    .myservices-inner-container{
+        width: 95%;
+    }
+}
