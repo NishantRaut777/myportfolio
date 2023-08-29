@@ -1,3 +1,5 @@
+// Handling navbar displaying for small screens
+
 const mobile_nav = document.querySelector(".mobile-navbar-btn");
 const nav_header = document.querySelector(".header-container");
 
@@ -8,6 +10,8 @@ const toggleNavbar = () => {
 mobile_nav.addEventListener("click" , ()=> toggleNavbar());
 
 
+
+// Handling navigation of tabs in aboutme section
 
 let tablinks = document.getElementsByClassName("tablink");
 let tabcontents = document.getElementsByClassName("tab-contents");
