@@ -10,6 +10,25 @@ const toggleNavbar = () => {
 mobile_nav.addEventListener("click" , ()=> toggleNavbar());
 
 
+// Adding typing effect in intro section
+// This will be called when page loads
+
+let currentWordIndex = 0;
+let txt = "Hi, I'm Nishant Raut";
+let speed = 200;
+
+function addName(){
+    if(currentWordIndex < txt.length){
+        document.getElementById("Intro-section-myname").innerHTML += txt.charAt(currentWordIndex);
+        currentWordIndex++;
+        setTimeout(addName,speed);
+    }
+}
+
+addName();
+
+
+
 
 // Handling navigation of tabs in aboutme section
 

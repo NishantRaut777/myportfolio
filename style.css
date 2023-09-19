@@ -257,6 +257,11 @@ body{
     font-weight: bold;
 }
 
+.tab-contents .role{
+    color: black;
+    font-weight: bold;
+}
+
 
 
 /* --------------------------------- myservices CSS --------------------------------------- */
@@ -467,6 +472,16 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
     background-color: #d1d1f9a1;
+}
+
+.contact-me-right-container form input:focus{
+    background-color: rgb(199, 216, 241);
+    color: black;
+}
+
+.contact-me-right-container form textarea:focus{
+    background-color: rgb(199, 216, 241);
+    color: black;
 }
 
 .btn-submit{
