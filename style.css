@@ -321,11 +321,12 @@ body{
 
 .portfolio-section{
     padding: 25px 25px;
-    height: 600px;
+    height: 100%;
 }
 
 .portfolio-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 15px 0px;
 }
 
@@ -708,10 +709,8 @@ form input, form textarea{
 
 /* Portfolio section */
 
-@media (max-width: 1000px){
-    .portfolio-section{
-        height: 1450px;
-    }
+@media (max-width: 900px){
+    
 
     .portfolio-section h1{
         text-align: center;
@@ -719,13 +718,19 @@ form input, form textarea{
     }
 
     .portfolio-container {
-        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
     }
 
     .portfolio-inner-container{
         width: 80%;
         margin: auto;
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    .portfolio-container {
+        grid-template-columns: 1fr;
     }
 }
 
